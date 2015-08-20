@@ -40,14 +40,14 @@ config:SetParameter("FarmJungleKey", "B", config.TYPE_HOTKEY)
 config:SetParameter("AllMeeposIdle", "V", config.TYPE_HOTKEY)
 config:SetParameter("Debug", "P", config.TYPE_HOTKEY)
 config:SetParameter("EnableAutoBind", true)
-config:SetParameter("Meepo1", 49, config.TYPE_HOTKEY) -- 49 is Key Code for 1
-config:SetParameter("Meepo2", 50, config.TYPE_HOTKEY) -- 50 is Key Code for 2 for all KeyCodes go to http://www.zynox.net/forum/threads/336-KeyCodes
-config:SetParameter("Meepo3", 51, config.TYPE_HOTKEY) -- 3
-config:SetParameter("Meepo4", 52, config.TYPE_HOTKEY) -- 4
-config:SetParameter("Meepo5", 53, config.TYPE_HOTKEY) -- 5
-config:SetParameter("PoofBindInDota", "W", config.TYPE_HOTKEY)
-config:SetParameter("EarthbindBindInDota", "Q", config.TYPE_HOTKEY)
-config:SetParameter("StopKeyBindInDota", "S", config.TYPE_HOTKEY)
+config:SetParameter("Meepo1", 84, config.TYPE_HOTKEY) -- 49 is Key Code for 1
+config:SetParameter("Meepo2", 89, config.TYPE_HOTKEY) -- 50 is Key Code for 2 for all KeyCodes go to http://www.zynox.net/forum/threads/336-KeyCodes
+config:SetParameter("Meepo3", 85, config.TYPE_HOTKEY) -- 3
+config:SetParameter("Meepo4", 73, config.TYPE_HOTKEY) -- 4
+config:SetParameter("Meepo5", 79, config.TYPE_HOTKEY) -- 5
+config:SetParameter("PoofBindInDota", "49", config.TYPE_HOTKEY)
+config:SetParameter("EarthbindBindInDota", "50", config.TYPE_HOTKEY)
+config:SetParameter("StopKeyBindInDota", "F", config.TYPE_HOTKEY)
 config:SetParameter("MinimapNumbersXMove", 0)
 config:Load()
 	
